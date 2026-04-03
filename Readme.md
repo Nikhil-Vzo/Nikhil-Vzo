@@ -136,17 +136,7 @@ I operate across the **full stack** — from designing pixel-perfect interfaces 
 
 ---
 
-## ✦ 🐍 CONTRIBUTION GRID
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
-> **Note:** To activate the snake animation, add a GitHub Actions workflow to your profile repo that generates the SVG output. [Guide here →](https://github.com/Platane/snk)
-
-<br/>
-
----
 
 <div align="center">
 
