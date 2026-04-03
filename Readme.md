@@ -78,8 +78,8 @@ I am a software engineer who treats code as a canvas. I don't just build fronten
 <div align="center">
   
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=A855F7" alt="Nikhil's GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=dark&bg_color=0d1117&hide_border=true&title_color=A855F7" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=radical&hide_border=true" alt="Nikhil's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
   </p>
 
   <p align="center">
@@ -87,14 +87,6 @@ I am a software engineer who treats code as a canvas. I don't just build fronten
   </p>
 
   <br/>
-
-  <!-- GitHub Activity Graph Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
-  </picture>
-  *(Note: To activate the snake, you will need to add a GitHub Actions workflow to your profile repo!)*
 
 </div>
 
