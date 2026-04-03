@@ -2,65 +2,73 @@
 
 <div align="center">
 
-<!-- Wave Banner Generator -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Hi,%20I'm%20Nikhil%20Yadav&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Frontend%20Architect%20%E2%88%99%20Cinematic%20UI%20Engineer&descAlignY=55&descSize=20&fontColor=ffffff" width="100%"/>
+<!-- Brutalist Glitch/Gradient Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:3b006a&height=320&section=header&text=NIKHIL%20YADAV&fontSize=90&fontAlignY=35&desc=SOFTWARE%20ENGINEER%20//%20FULL-STACK%20ARCHITECT&descAlignY=55&descSize=22&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 <!-- Animated Typing Text -->
-<a href="https://github.com/Nikhil-Vzo">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Building+Brutalist+%26+Cinematic+Web+Experiences;React+|+Next.js+|+Three.js+|+TailwindCSS;Crafting+interfaces+that+make+people+go+WOW;Bridging+the+gap+between+Design+%26+Engineering" alt="Typing SVG" />
+<a href="https://portfolio-alpha-ebon-0d63biy00d.vercel.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=26&pause=1000&color=dcdcaa&center=true&vCenter=true&width=800&lines=Building+Cinematic+%26+Brutalist+Web+Experiences;React+|+Next.js+|+Three.js+|+TailwindCSS;Crafting+interfaces+that+make+people+say+WOW;Bridging+the+gap+between+Design+%26+Engineering" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Social & Contact Badges -->
+<!-- Sleek Contact Network -->
 <p align="center">
-  <a href="mailto:your.nikhilyadav200530@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-white?style=for-the-badge&logo=minutemailer&logoColor=black" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/nikhil1yadav/"><img src="https://img.shields.io/badge/LinkedIn-Connect-white?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" /></a>
-  <a href="https://portfolio-alpha-ebon-0d63biy00d.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-View%20Work-white?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" /></a>
+  <a href="https://portfolio-alpha-ebon-0d63biy00d.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-ENTER_THE_VOID-0d1117?style=for-the-badge&logoUrl=https://cdn-icons-png.flaticon.com/512/3242/3242276.png&labelColor=0d1117" alt="Portfolio" /></a>
+  <a href="mailto:nikhilyadav200530@gmail.com"><img src="https://img.shields.io/badge/EMAIL-INITIATE_COMMS-0d1117?style=for-the-badge&logo=minutemailer&logoColor=white&labelColor=0d1117" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/nikhil1yadav/"><img src="https://img.shields.io/badge/LINKEDIN-NETWORK-0d1117?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0d1117" alt="LinkedIn" /></a>
 </p>
 
 </div>
-
-<br/>
-
-
-
-<div align="center">
-
-### ✦ 🛠️ The Tech Arsenal
-
-<!-- Floating Tech Stack Icons -->
-<p align="center">
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="55" height="55"/> </a> &nbsp;
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="55" height="55"/> </a> &nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="50" height="50"/> </a> &nbsp;
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="55" height="55"/> </a> &nbsp;
-  <a href="https://supabase.io/" target="_blank" rel="noreferrer"> <img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="supabase" width="50" height="50"/> </a> &nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="60" height="60"/> </a> 
-</p>
-
-</div>
-
-<br/>
 
 ---
 
-### ✦ 📈 GitHub Analytics
+<br/>
+
+## ✦ 🌌 THE MANIFESTO
+I am a software engineer who treats code as a canvas. I don't just build frontend skins; I construct **scalable, high-performance, and deeply immersive full-stack applications**. My work encompasses everything from robust backend databases to glassmorphic frontend visuals and hyper-smooth 3D rendering interactions. 
+
+> *“If the system doesn't make you say WOW inside and out, the code isn't finished yet.”*
+
+- 🎬 **Best Thing i did:** Building `OTHRHALFF` — A Campus Connection and dating site.
+- 🧠 **Tech Arsenal:** Full-Stack web ecosystems, Backend APIs, Framer Motion choreography, and 3D Model Rendering.
+
+<br/>
+
+## ✦ 🛠️ SYNTAX & TOOLING
+
+<div align="center">
+
+| Core Frameworks | Aesthetic Engineering | Backend & Tooling |
+| :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /> <br/> <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" /> | <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/framer--motion-black?style=for-the-badge&logo=framer&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white" /> | <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white" /> |
+
+</div>
+
+<br/>
+
+## ✦ 📈 DATALINKS & ANALYTICS
 
 <div align="center">
   
-  <!-- Beautiful Dark-mode GitHub Stats -->
-  <a href="https://github.com/Nikhil-Vzo">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7" />
-  </a>
-  <a href="https://github.com/Nikhil-Vzo">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7" />
-  </a>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=rose_pine&bg_color=0d1117&border_color=3b006a&title_color=c4a7e7&icon_color=ebbcba" alt="Nikhil's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=rose_pine&bg_color=0d1117&border_color=3b006a&title_color=c4a7e7" alt="Top Languages" />
+  </p>
 
-  <br/><br/>
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-Vzo&theme=rose_pine&background=0d1117&border=3b006a&ring=c4a7e7&fire=ebbcba&currStreakNum=ffffff" alt="GitHub Streak" />
+  </p>
 
-  <!-- Interactive Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-Vzo&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakNum=ffffff" />
+  <br/>
+
+  <!-- GitHub Activity Graph Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Nikhil-Vzo/Nikhil-Vzo/output/github-contribution-grid-snake.svg">
+  </picture>
+  *(Note: To activate the snake, you will need to add a GitHub Actions workflow to your profile repo!)*
 
 </div>
 
@@ -69,5 +77,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=footer" width="100%"/>
+  <a href="https://portfolio-alpha-ebon-0d63biy00d.vercel.app/">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:3b006a&height=100&section=footer&text=ENTER%20THE%20MATRIX&fontSize=24&fontColor=ffffff&fontAlignY=50" width="100%"/>
+  </a>
 </div>
