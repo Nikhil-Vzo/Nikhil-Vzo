@@ -29,6 +29,10 @@ I am a software engineer who treats code as a canvas. I don't just build fronten
 
 > *“If the system doesn't make you say WOW inside and out, the code isn't finished yet.”*
 
+<div align="center">
+  <img src="https://i.imgur.com/q2yZ9hX.gif" alt="ASCII Dance" width="250" />
+</div>
+
 - 🎬 **Best Thing i did:** Building `OTHRHALFF` — A Campus Connection and dating site.
 - 🧠 **Tech Arsenal:** Full-Stack web ecosystems, Backend APIs, Framer Motion choreography, and 3D Model Rendering.
 
