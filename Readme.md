@@ -30,7 +30,7 @@ $ nikhil --describe
   "name"      : "Nikhil Yadav",
   "alias"     : "Nikhil-Vzo",
   "role"      : "Full-Stack Engineer",
-  "location"  : "India 🇮🇳",
+  "location"  : "India",
   "focus"     : "Building scalable, immersive web products",
   "currently" : "Crafting the next big thing...",
   "mantra"    : "Ship fast. Break less. Look good doing it."
