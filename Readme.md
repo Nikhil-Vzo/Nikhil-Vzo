@@ -19,25 +19,7 @@
 ---
 
 <br/>
-<br/>
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
-## `> who am I`
-
-```bash
-$ nikhil --describe
-{
-  "name"      : "Nikhil Yadav",
-  "alias"     : "Nikhil-Vzo",
-  "role"      : "Full-Stack Engineer",
-  "location"  : "India",
-  "focus"     : "Building scalable, immersive web products",
-  "currently" : "Crafting the next big thing...",
-  "mantra"    : "Ship fast. Break less. Look good doing it."
-}
-```
-
-<br clear="right"/>
 
 <br/>
 
