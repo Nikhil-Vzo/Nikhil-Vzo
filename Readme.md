@@ -27,9 +27,7 @@
 
 ## ✦ 🌌 MANIFESTO
 
-> *"I don't build websites. I architect digital experiences — where every API call is intentional, every animation is purposeful, and every UI decision is made with the user's jaw in mind."*
-
-I operate across the **full stack** — from designing pixel-perfect interfaces that breathe and move, to engineering backend systems that scale without breaking a sweat. Whether it's a real-time GraphQL subscription, a serverless edge function, or a buttery-smooth GSAP animation — **I ship it all, and I ship it clean.**
+>  — **I build that makes u say tf **
 
 <br/>
 
