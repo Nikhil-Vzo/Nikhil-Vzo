@@ -99,13 +99,7 @@ I operate across the **full stack** — from designing pixel-perfect interfaces 
 
 ## ✦ 📊 SYSTEM METRICS
 
-<div align="center">
 
-
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-Vzo&theme=midnight-purple&background=0D1117&hide_border=true&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideLabels=a855f7&dates=888888&border_radius=12" />
-
-<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhil-Vzo&bg_color=0d1117&color=a855f7&line=6d00cc&point=ffffff&area=true&hide_border=true&radius=12" width="100%"/>
 
