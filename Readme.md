@@ -21,9 +21,6 @@
 <br/>
 
 
-<br/>
-
----
 ## ✦ 🛠️ TECH ARSENAL
 
 <div align="center">
