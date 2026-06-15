@@ -24,15 +24,6 @@
 <br/>
 
 ---
-
-## ✦ 🌌 MANIFESTO
-
->  — **I build that makes u say tf **
-
-<br/>
-
----
-
 ## ✦ 🛠️ TECH ARSENAL
 
 <div align="center">
