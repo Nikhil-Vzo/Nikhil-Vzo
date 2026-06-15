@@ -101,10 +101,7 @@ I operate across the **full stack** — from designing pixel-perfect interfaces 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&border_radius=12" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&border_radius=12" height="180" />
 
-<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-Vzo&theme=midnight-purple&background=0D1117&hide_border=true&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideLabels=a855f7&dates=888888&border_radius=12" />
 
