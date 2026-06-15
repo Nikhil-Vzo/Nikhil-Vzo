@@ -83,23 +83,10 @@
 
 ---
 
-## ✦ 📊 SYSTEM METRICS
-
-
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhil-Vzo&bg_color=0d1117&color=a855f7&line=6d00cc&point=ffffff&area=true&hide_border=true&radius=12" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
-
 
 <div align="center">
 
-### `> Let's build something that matters.`
+### `> Let's build something effing awesome.`
 
 <br/>
 
