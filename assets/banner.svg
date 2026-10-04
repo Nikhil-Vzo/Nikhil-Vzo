@@ -1,126 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220">
   <defs>
-    <!-- Background Linear Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c14" />
-      <stop offset="50%" stop-color="#0d111a" />
-      <stop offset="100%" stop-color="#06090e" />
+    <!-- Deep Obsidian Background Gradient -->
+    <linearGradient id="deepDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="60%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#030303" />
     </linearGradient>
 
-    <!-- Subtle Radial Glows -->
-    <radialGradient id="glowCyan" cx="15%" cy="25%" r="60%">
-      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="glowEmerald" cx="85%" cy="80%" r="55%">
-      <stop offset="0%" stop-color="#00e599" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#00e599" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Text Gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="60%" stop-color="#F1F5F9" />
-      <stop offset="100%" stop-color="#94A3B8" />
-    </linearGradient>
-
-    <!-- Accent Gradient -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E599" />
-      <stop offset="50%" stop-color="#00D2FF" />
-      <stop offset="100%" stop-color="#3B82F6" />
-    </linearGradient>
-
-    <!-- Precision Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1" />
+    <!-- Subtle Hairline Grid -->
+    <pattern id="fineGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#262626" stroke-width="0.75" stroke-opacity="0.3" />
     </pattern>
   </defs>
 
   <style>
-    .mono-label {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    .mono-meta {
+      font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
       font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-      fill: #64748B;
-      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      fill: #737373;
     }
     .headline {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 44px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Display", Helvetica, Arial, sans-serif;
+      font-size: 42px;
       font-weight: 800;
-      letter-spacing: -0.02em;
-      fill: url(#textGrad);
+      letter-spacing: -0.03em;
+      fill: #F5F5F7;
     }
     .tagline {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       font-size: 14px;
-      font-weight: 500;
-      letter-spacing: 0.02em;
-      fill: #94A3B8;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      fill: #A3A3A3;
     }
-    .pill-text {
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    .tag-text {
+      font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
       font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.05em;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      fill: #D4D4D4;
     }
   </style>
 
-  <!-- Card Background -->
-  <rect width="900" height="240" rx="16" fill="url(#bgGrad)" />
-  <rect width="900" height="240" rx="16" fill="url(#grid)" />
-  <rect width="900" height="240" rx="16" fill="url(#glowCyan)" />
-  <rect width="900" height="240" rx="16" fill="url(#glowEmerald)" />
+  <!-- Frame Base -->
+  <rect width="920" height="220" rx="12" fill="url(#deepDark)" />
+  <rect width="920" height="220" rx="12" fill="url(#fineGrid)" />
 
-  <!-- Outer Hairline Border -->
-  <rect x="0.5" y="0.5" width="899" height="239" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+  <!-- Outer Hairline Machined Border -->
+  <rect x="0.5" y="0.5" width="919" height="219" rx="11.5" fill="none" stroke="#262626" stroke-width="1" />
 
   <!-- Top Metadata Bar -->
-  <g transform="translate(36, 36)">
-    <!-- Status Dot Pulse -->
-    <circle cx="5" cy="5" r="4" fill="#00E599" />
-    <circle cx="5" cy="5" r="7" fill="none" stroke="#00E599" stroke-width="1" stroke-opacity="0.3" />
-    <text x="20" y="9" class="mono-label">SYS.ACTIVE // RAIPUR, IN // FULL-STACK ARCHITECT &amp; FOUNDER</text>
-
-    <!-- Right Side Coordinates -->
-    <text x="828" y="9" text-anchor="end" class="mono-label" fill="#475569">21.25° N · 81.63° E</text>
+  <g transform="translate(36, 34)">
+    <circle cx="5" cy="5" r="3" fill="#D4D4D4" />
+    <text x="18" y="9" class="mono-meta">NIKHIL YADAV // DEPTH_WALKER // RAIPUR, IN</text>
+    <text x="848" y="9" text-anchor="end" class="mono-meta">21.25° N · 81.63° E</text>
   </g>
 
-  <!-- Center Identity & Headline -->
-  <g transform="translate(36, 102)">
+  <!-- Headline & Subtitle -->
+  <g transform="translate(36, 96)">
     <text x="0" y="0" class="headline">NIKHIL YADAV</text>
-    <text x="0" y="30" class="tagline">Building high-concurrency campus networks and resilient distributed full-stack systems.</text>
+    <text x="0" y="28" class="tagline">Engineering resilient distributed systems, low-latency media, and verified campus networks.</text>
   </g>
 
-  <!-- Bottom Badges / High-Signal Metrics -->
-  <g transform="translate(36, 180)">
-    <!-- Pill 1: Othrhalff -->
+  <!-- Deep Architecture Tags -->
+  <g transform="translate(36, 160)">
+    <!-- Tag 1 -->
     <g>
-      <rect x="0" y="0" width="224" height="28" rx="14" fill="#0F172A" stroke="#00E599" stroke-opacity="0.3" stroke-width="1" />
-      <circle cx="16" cy="14" r="3.5" fill="#00E599" />
-      <text x="28" y="18" class="pill-text" fill="#E2E8F0">OTHRHALFF · 400+ USERS</text>
+      <rect x="0" y="0" width="220" height="26" rx="6" fill="#141414" stroke="#262626" stroke-width="1" />
+      <text x="16" y="17" class="tag-text">OTHRHALFF · 400+ USERS</text>
     </g>
 
-    <!-- Pill 2: Realtime & WebRTC -->
-    <g transform="translate(234, 0)">
-      <rect x="0" y="0" width="190" height="28" rx="14" fill="#0F172A" stroke="#00D2FF" stroke-opacity="0.3" stroke-width="1" />
-      <circle cx="16" cy="14" r="3.5" fill="#00D2FF" />
-      <text x="28" y="18" class="pill-text" fill="#E2E8F0">WEBRTC &amp; LIVEKIT</text>
+    <!-- Tag 2 -->
+    <g transform="translate(230, 0)">
+      <rect x="0" y="0" width="180" height="26" rx="6" fill="#141414" stroke="#262626" stroke-width="1" />
+      <text x="16" y="17" class="tag-text">WEBRTC · LIVEKIT</text>
     </g>
 
-    <!-- Pill 3: Distributed Data -->
-    <g transform="translate(434, 0)">
-      <rect x="0" y="0" width="228" height="28" rx="14" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
-      <circle cx="16" cy="14" r="3.5" fill="#3B82F6" />
-      <text x="28" y="18" class="pill-text" fill="#E2E8F0">POSTGRES · REDIS · RLS</text>
+    <!-- Tag 3 -->
+    <g transform="translate(420, 0)">
+      <rect x="0" y="0" width="210" height="26" rx="6" fill="#141414" stroke="#262626" stroke-width="1" />
+      <text x="16" y="17" class="tag-text">POSTGRES · REDIS · RLS</text>
     </g>
 
-    <!-- Pill 4: Zero Slop Badge -->
-    <g transform="translate(672, 0)">
-      <rect x="0" y="0" width="156" height="28" rx="14" fill="#0F172A" stroke="#64748B" stroke-opacity="0.3" stroke-width="1" />
-      <text x="78" y="18" text-anchor="middle" class="pill-text" fill="#94A3B8">100% PRODUCTION</text>
+    <!-- Tag 4 -->
+    <g transform="translate(640, 0)">
+      <rect x="0" y="0" width="180" height="26" rx="6" fill="#141414" stroke="#262626" stroke-width="1" />
+      <text x="16" y="17" class="tag-text">NEXT.JS 14 · NODE.JS</text>
     </g>
   </g>
 </svg>
