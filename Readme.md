@@ -6,7 +6,7 @@
 
 ---
 
-###<p  ⚓ Flagship Works align="center">
+###<p  ⚓ Flagship Works align="center"></p>
 
 #### 🌐 [Othrhalff](https://www.othrhalff.in/) — *The Verified Campus Connection Network*
 > **Live in Production** · 400+ Active Students across 7 Countries · Sub-100ms WebRTC Calls · 24h Ephemeral Stories · 2D Virtual Campus
