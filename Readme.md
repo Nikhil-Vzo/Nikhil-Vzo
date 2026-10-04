@@ -1,18 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-banner.png" width="100%" alt="Nikhil Yadav // Systems &amp; Full-Stack Architect" />
-
-<br/><br/>
-
-**[Live: othrhalff.in ↗](https://www.othrhalff.in/)**
-&nbsp;&nbsp;·&nbsp;&nbsp;
-**[Portfolio ↗](https://portfolio-87o6g7bkx-nikhils-projects-bc11754d.vercel.app/)**
-&nbsp;&nbsp;·&nbsp;&nbsp;
-**[X (@Depth_walker) ↗](https://x.com/Depth_walker)**
-&nbsp;&nbsp;·&nbsp;&nbsp;
-**[LinkedIn ↗](https://www.linkedin.com/in/nikhil-yadav-ba253b326/)**
-&nbsp;&nbsp;·&nbsp;&nbsp;
-**[Email ↗](mailto:nikhilyadav200530@gmail.com)**
+<img src="assets/hero-banner.jpg" width="100%" alt="Depth_walker // Nikhil Yadav" />
 
 </div>
 
@@ -80,13 +68,13 @@
 
 ### 📬 Direct Dispatch & Contact
 
-| Channel | Link | Notes |
-|:---|:---|:---|
-| **Direct Email** | [nikhilyadav200530@gmail.com](mailto:nikhilyadav200530@gmail.com) | Direct architectural inquiries, hiring & collaborations |
-| **X (Twitter)** | [@Depth_walker](https://x.com/Depth_walker) | Engineering logs, active build updates & thoughts |
-| **LinkedIn** | [/in/nikhil-yadav-ba253b326](https://www.linkedin.com/in/nikhil-yadav-ba253b326/) | Professional network & background |
-| **Interactive Portfolio** | [Live Portfolio ↗](https://portfolio-87o6g7bkx-nikhils-projects-bc11754d.vercel.app/) | Selected design works, projects & demos |
-| **Live Platform** | [othrhalff.in ↗](https://www.othrhalff.in/) | Founder & Lead Architect |
+| Channel | Destination |
+|:---|:---|
+| **Direct Email** | [nikhilyadav200530@gmail.com](mailto:nikhilyadav200530@gmail.com) |
+| **X (Twitter)** | [@Depth_walker](https://x.com/Depth_walker) |
+| **LinkedIn** | [/in/nikhil-yadav-ba253b326](https://www.linkedin.com/in/nikhil-yadav-ba253b326/) |
+| **Interactive Portfolio** | [Live Portfolio ↗](https://portfolio-87o6g7bkx-nikhils-projects-bc11754d.vercel.app/) |
+| **Live Platform** | [othrhalff.in ↗](https://www.othrhalff.in/) |
 
 <br/>
 
