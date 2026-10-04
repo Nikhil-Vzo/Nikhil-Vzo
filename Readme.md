@@ -6,8 +6,8 @@
 
 ---
 
-###<p   align="center">
-⚓ Flagship Works
+<p   align="center">
+### ⚓ Flagship Works
 </p>
 
 #### 🌐 [Othrhalff](https://www.othrhalff.in/) — *The Verified Campus Connection Network*
