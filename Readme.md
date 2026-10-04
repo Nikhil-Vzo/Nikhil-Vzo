@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-banner.svg" width="100%" alt="Nikhil Yadav // Systems &amp; Full-Stack Architect" />
+<img src="assets/hero-banner.png" width="100%" alt="Nikhil Yadav // Systems &amp; Full-Stack Architect" />
 
 <br/><br/>
 
