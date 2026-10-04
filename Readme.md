@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Nikhil Yadav // Depth_Walker" />
+<img src="assets/hero-banner.svg" width="100%" alt="Nikhil Yadav // Systems &amp; Full-Stack Architect" />
 
 <br/><br/>
 
@@ -8,7 +8,7 @@
 &nbsp;&nbsp;·&nbsp;&nbsp;
 **[Portfolio ↗](https://portfolio-87o6g7bkx-nikhils-projects-bc11754d.vercel.app/)**
 &nbsp;&nbsp;·&nbsp;&nbsp;
-**[X / Twitter ↗](https://x.com/Depth_walker)**
+**[X (@Depth_walker) ↗](https://x.com/Depth_walker)**
 &nbsp;&nbsp;·&nbsp;&nbsp;
 **[LinkedIn ↗](https://www.linkedin.com/in/nikhil-yadav-ba253b326/)**
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -26,59 +26,87 @@
 <br/>
 
 <p align="center">
-  <a href="https://www.othrhalff.in/"><img src="https://raw.githubusercontent.com/Nikhil-Vzo/Othrhalff/main/client/public/mockups/phone-discover.png" width="31%" alt="OthrHalff Discover Radar" /></a>
-  <a href="https://www.othrhalff.in/"><img src="https://raw.githubusercontent.com/Nikhil-Vzo/Othrhalff/main/client/public/mockups/phone-confession.png" width="31%" alt="OthrHalff Confession Wall" /></a>
-  <a href="https://www.othrhalff.in/"><img src="https://raw.githubusercontent.com/Nikhil-Vzo/Othrhalff/main/client/public/mockups/phone-chat-call.png" width="31%" alt="OthrHalff Chat & WebRTC Calls" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-discover.png" width="31%" alt="OthrHalff Discover Radar" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-confession.png" width="31%" alt="OthrHalff Campus Confessions" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-chat-call.png" width="31%" alt="OthrHalff WebRTC Audio/Video" /></a>
 </p>
 
 <p align="center">
-  <code>Status: Live in Production</code> &nbsp;·&nbsp;
+  <code>Deployment: Live in Production</code> &nbsp;·&nbsp;
   <code>Scale: 400+ Active Students</code> &nbsp;·&nbsp;
-  <code>Source: <a href="https://github.com/Nikhil-Vzo/Othrhalff">Nikhil-Vzo/Othrhalff</a></code>
+  <code>Repository: <a href="https://github.com/Nikhil-Vzo/Othrhalff">Nikhil-Vzo/Othrhalff</a></code>
 </p>
 
-#### Architecture & Production Engineering:
+<br/>
 
-| Layer | Stack | Architectural Implementation |
+#### 📐 System Architecture:
+
+```mermaid
+flowchart LR
+    subgraph Client["Edge Client & PWA"]
+        Next["Next.js 14 (App Router)"] -->|"60 FPS Lerp Loop"| Canvas["Campus Map & Confessions"]
+        Next -->|"Sub-100ms WebRTC"| LiveKit["LiveKit Media Server"]
+    end
+
+    subgraph Gateway["API Gateway & Cache"]
+        Node["Node.js / Express API"] -->|"Token-Bucket IP Limiter"| Redis[("Redis Session Cache")]
+    end
+
+    subgraph Persistence["Resilient Persistence"]
+        Supabase[("Supabase PostgreSQL")] -->|"Row-Level Security (RLS)"| DBData["Student State & Auth"]
+        Supabase -->|"Automated Probes"| CI["GitHub Actions Keep-Alive"]
+    end
+
+    Next <-->|"Secure REST / WS"| Node
+    Node <-->|"Connection Pooler"| Supabase
+```
+
+<br/>
+
+#### Architectural Solutions & Engineering Log:
+
+| Production Problem | Root Cause | Engineering Solution |
 |:---|:---|:---|
-| **Frontend & UI** | Next.js 14, TypeScript, Tailwind | Sub-second App Router navigation, 60 FPS `requestAnimationFrame` canvas movement loops bypassing React diffing, responsive PWA shell. |
-| **Real-Time Media** | WebRTC & LiveKit Cloud | Sub-100ms peer connection handshakes, adaptive bitrate audio/video streaming, zero phone-number exposure. |
-| **Database & Auth** | Supabase (PostgreSQL), Custom RLS | Granular Row-Level Security policies, atomic qualification RPC procedures, resilient automated keep-alive health probes. |
-| **Caching & Queues** | Redis & Express Gateway | Token-bucket IP rate-limiting, live presence heartbeats, and sub-10ms session cache retrieval. |
-| **Edge Graphics** | Edge OpenGraph Engine (`@vercel/og`) | Serverless microservice generating personalized confession & match preview graphics dynamically at the edge. |
+| **Hot-Path Query Latency** | Write-amplification during student match timeline fetches. | Built compound B-tree indexes across primary foreign keys (`user_id`, `created_at`, `status`), cutting fetch latency by **35%**. |
+| **60 FPS Map Movement** | Standard React state diffing dropping frames on 30+ simultaneous campus avatars. | Bypassed React state loops using native `requestAnimationFrame` with a 15% distance lerp updating DOM `translate3d` transforms directly. |
+| **Confession Wall RLS Gate** | Unauthenticated mutations leaking to public database tables. | Proxied confession write operations through a dedicated backend validation service enforcing verified university email claims. |
+| **Real-IP Proxy Rate Limiting** | Reverse proxy masking incoming client IPs, causing false-positive 429 cascades. | Configured Express `trust proxy` upstream resolution with token-bucket IP throttles to protect endpoints under traffic surges. |
+| **Database Cold-Start Mitigation** | Inactive cloud databases pausing on free-tier dormant schedules. | Engineered an automated, resilient GitHub Actions keep-alive pipeline running scheduled health probes with zero-exit-code error masking. |
 
 ---
 
 ### 🛠️ Engineered Systems & Platforms
 
-| Platform | Context | Architectural Deliverables |
+| Platform | Role / Context | Technical Deliverables |
 |:---|:---|:---|
-| **[TEDx AUC Engine](https://github.com/Nikhil-Vzo/TedX_Auc)** | Official Event & Ticketing Platform | Built an autonomous ticketing pipeline for TEDx Amity University Chhattisgarh featuring dynamic seating state machines, cryptographic QR pass generation, and transactional email dispatch. |
-| **[FairWater SCADA](https://github.com/Nikhil-Vzo/FairWater_Scada-Management)** | IIIT Raipur "HackaSoul" | Real-time telemetry monitoring and SCADA infrastructure engineered for fault-tolerant municipal water telemetry under constrained or high-latency network conditions. |
+| **[TEDx AUC Platform](https://github.com/Nikhil-Vzo/TedX_Auc)** | Official Event & Ticketing Engine | Autonomous ticketing architecture for TEDx Amity University Chhattisgarh featuring dynamic seating state machines, cryptographic QR verification, and transactional dispatch. |
+| **[FairWater SCADA](https://github.com/Nikhil-Vzo/FairWater_Scada-Management)** | IIIT Raipur "HackaSoul" | Real-time telemetry monitoring and SCADA infrastructure engineered for fault-tolerant municipal water telemetry under degraded, high-latency network conditions. |
 
 ---
 
-### ⚡ Battle-Tested Engineering Stack
-
-| Domain | Production Tooling |
-|:---|:---|
-| **Frontend & Real-Time** | `Next.js 14 (App Router)` · `React 18` · `TypeScript` · `Tailwind CSS` · `WebRTC` · `LiveKit` |
-| **Backend & Distributed** | `Node.js 20` · `Express` · `WebSockets` · `REST Architecture` · `Redis (Sessions & Rate Limiting)` |
-| **Databases & Security** | `PostgreSQL` · `Supabase (Row-Level Security & Realtime)` · `MongoDB` |
-| **DevOps & Tooling** | `Docker` · `GitHub Actions CI/CD` · `Vercel` · `Render` · `Linux` |
-
----
-
-### 📊 GitHub Activity & Telemetry
+### ⚡ Technical Arsenal
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nikhil-Vzo&show_icons=true&theme=github_dark&hide_border=false&border_color=262626&bg_color=0a0a0a&title_color=f5f5f7&icon_color=a3a3a3&text_color=a3a3a3" alt="GitHub Stats" width="48%" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-Vzo&layout=compact&theme=github_dark&hide_border=false&border_color=262626&bg_color=0a0a0a&title_color=f5f5f7&text_color=a3a3a3" alt="Top Languages" width="48%" />
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,express,postgres,supabase,redis,docker,githubactions,linux&theme=dark" alt="Technical Arsenal" />
+</a>
 
 <br/><br/>
 
-<sub>Direct dispatch: <strong>nikhilyadav200530@gmail.com</strong> · Founder of <strong><a href="https://www.othrhalff.in/">Othrhalff</a></strong></sub>
+| Category | Battle-Tested Technologies |
+|:---|:---|
+| **Frontend & Real-Time** | `Next.js 14 (App Router)` · `React 18` · `TypeScript` · `Tailwind CSS` · `WebRTC` · `LiveKit Cloud` |
+| **Backend & Distributed** | `Node.js 20` · `Express` · `REST Architecture` · `WebSockets` · `Redis (Caches & Rate Limiting)` |
+| **Persistence & Security** | `PostgreSQL` · `Supabase (Row-Level Security & Triggers)` · `MongoDB` |
+| **Infrastructure & CI/CD** | `Docker` · `GitHub Actions CI/CD` · `Vercel Edge` · `Render` · `Linux` |
+
+</div>
+
+---
+
+<div align="center">
+
+<sub>Direct dispatch: <strong><a href="mailto:nikhilyadav200530@gmail.com">nikhilyadav200530@gmail.com</a></strong> · X: <strong><a href="https://x.com/Depth_walker">@Depth_walker</a></strong> · Founder of <strong><a href="https://www.othrhalff.in/">Othrhalff</a></strong></sub>
 
 </div>
