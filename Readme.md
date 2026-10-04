@@ -12,94 +12,59 @@
 &nbsp;&nbsp;·&nbsp;&nbsp;
 **[LinkedIn ↗](https://www.linkedin.com/in/nikhil-yadav-ba253b326/)**
 &nbsp;&nbsp;·&nbsp;&nbsp;
-**[Direct Dispatch ↗](mailto:nikhilyadav200530@gmail.com)**
+**[Email ↗](mailto:nikhilyadav200530@gmail.com)**
 
 </div>
 
 ---
 
-### ⚓ Flagship Venture: [Othrhalff](https://www.othrhalff.in/)
+### ⚓ Flagship Ventures
 
-> **The Verified Campus Connection Network**  
-> *Production deployment: 400+ active students across 7 countries · Sub-100ms WebRTC voice & video calls · Ephemeral 24h stories · Interactive 2D campus world*
+#### 🌐 [Othrhalff](https://www.othrhalff.in/) — *The Verified Campus Connection Network*
+> **Live in Production** · 400+ Active Students across 7 Countries · Sub-100ms WebRTC Calls · 24h Ephemeral Stories · 2D Virtual Campus
 
 <br/>
 
 <p align="center">
-  <a href="https://www.othrhalff.in/"><img src="assets/phone-discover.png" width="31%" alt="OthrHalff Discover Radar" /></a>
-  <a href="https://www.othrhalff.in/"><img src="assets/phone-confession.png" width="31%" alt="OthrHalff Campus Confessions" /></a>
-  <a href="https://www.othrhalff.in/"><img src="assets/phone-chat-call.png" width="31%" alt="OthrHalff WebRTC Audio/Video" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-discover.png" width="31%" alt="OthrHalff Discover" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-confession.png" width="31%" alt="OthrHalff Confessions" /></a>
+  <a href="https://www.othrhalff.in/"><img src="assets/phone-chat-call.png" width="31%" alt="OthrHalff WebRTC" /></a>
 </p>
 
 <p align="center">
-  <code>Deployment: Live in Production</code> &nbsp;·&nbsp;
-  <code>Scale: 400+ Active Students</code> &nbsp;·&nbsp;
-  <code>Repository: <a href="https://github.com/Nikhil-Vzo/Othrhalff">Nikhil-Vzo/Othrhalff</a></code>
+  <code>Stack: Next.js 14 · Supabase (PostgreSQL RLS) · Redis · LiveKit WebRTC</code> &nbsp;·&nbsp;
+  <code><a href="https://github.com/Nikhil-Vzo/Othrhalff">View Repository ↗</a></code>
 </p>
 
 <br/>
 
-#### 📐 System Architecture:
+#### ⚡ [Blui](https://github.com/Nikhil-Vzo/Blui) — *AI Agent Runtime &amp; Safety Harness*
+> **Upcoming / Active Core** · High-performance deterministic AI agent runtime built in pure Java 24.
+> *Project Loom Virtual Threads (`StructuredTaskScope`) · Zero External Dependencies · Hard Token Budget Governors · Deterministic Time-Travel Replay.*
 
-```mermaid
-flowchart LR
-    subgraph Client["Edge Client & PWA"]
-        Next["Next.js 14 (App Router)"] -->|"60 FPS Lerp Loop"| Canvas["Campus Map & Confessions"]
-        Next -->|"Sub-100ms WebRTC"| LiveKit["LiveKit Media Server"]
-    end
-
-    subgraph Gateway["API Gateway & Cache"]
-        Node["Node.js / Express API"] -->|"Token-Bucket IP Limiter"| Redis[("Redis Session Cache")]
-    end
-
-    subgraph Persistence["Resilient Persistence"]
-        Supabase[("Supabase PostgreSQL")] -->|"Row-Level Security (RLS)"| DBData["Student State & Auth"]
-        Supabase -->|"Automated Probes"| CI["GitHub Actions Keep-Alive"]
-    end
-
-    Next <-->|"Secure REST / WS"| Node
-    Node <-->|"Connection Pooler"| Supabase
-```
-
-<br/>
-
-#### Architectural Solutions & Engineering Log:
-
-| Production Problem | Root Cause | Engineering Solution |
-|:---|:---|:---|
-| **Hot-Path Query Latency** | Write-amplification during student match timeline fetches. | Built compound B-tree indexes across primary foreign keys (`user_id`, `created_at`, `status`), cutting fetch latency by **35%**. |
-| **60 FPS Map Movement** | Standard React state diffing dropping frames on 30+ simultaneous campus avatars. | Bypassed React state loops using native `requestAnimationFrame` with a 15% distance lerp updating DOM `translate3d` transforms directly. |
-| **Confession Wall RLS Gate** | Unauthenticated mutations leaking to public database tables. | Proxied confession write operations through a dedicated backend validation service enforcing verified university email claims. |
-| **Real-IP Proxy Rate Limiting** | Reverse proxy masking incoming client IPs, causing false-positive 429 cascades. | Configured Express `trust proxy` upstream resolution with token-bucket IP throttles to protect endpoints under traffic surges. |
-| **Database Cold-Start Mitigation** | Inactive cloud databases pausing on free-tier dormant schedules. | Engineered an automated, resilient GitHub Actions keep-alive pipeline running scheduled health probes with zero-exit-code error masking. |
+<p align="center">
+  <code>Stack: Java 24 · Virtual Threads · Concurrency · Sealed State Machines</code> &nbsp;·&nbsp;
+  <code><a href="https://github.com/Nikhil-Vzo/Blui">View Repository ↗</a></code>
+</p>
 
 ---
 
-### 🛠️ Engineered Systems & Platforms
+### 🛠️ Shipped Production Systems
 
-| Platform | Role / Context | Technical Deliverables |
+| Platform | Context | Focus |
 |:---|:---|:---|
-| **[TEDx AUC Platform](https://github.com/Nikhil-Vzo/TedX_Auc)** | Official Event & Ticketing Engine | Autonomous ticketing architecture for TEDx Amity University Chhattisgarh featuring dynamic seating state machines, cryptographic QR verification, and transactional dispatch. |
-| **[FairWater SCADA](https://github.com/Nikhil-Vzo/FairWater_Scada-Management)** | IIIT Raipur "HackaSoul" | Real-time telemetry monitoring and SCADA infrastructure engineered for fault-tolerant municipal water telemetry under degraded, high-latency network conditions. |
+| **[TEDx AUC Engine](https://github.com/Nikhil-Vzo/TedX_Auc)** | Official Event & Ticketing Platform | Autonomous ticketing pipeline with dynamic seating state machines and cryptographic QR validation. |
+| **[FairWater SCADA](https://github.com/Nikhil-Vzo/FairWater_Scada-Management)** | IIIT Raipur "HackaSoul" | Real-time municipal water telemetry monitoring designed for degraded, high-latency network conditions. |
 
 ---
 
-### ⚡ Technical Arsenal
+### ⚡ Weapons of Choice
 
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,express,postgres,supabase,redis,docker,githubactions,linux&theme=dark" alt="Technical Arsenal" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,java,nodejs,express,postgres,supabase,redis,docker,githubactions,linux&theme=dark" alt="Technical Arsenal" />
 </a>
-
-<br/><br/>
-
-| Category | Battle-Tested Technologies |
-|:---|:---|
-| **Frontend & Real-Time** | `Next.js 14 (App Router)` · `React 18` · `TypeScript` · `Tailwind CSS` · `WebRTC` · `LiveKit Cloud` |
-| **Backend & Distributed** | `Node.js 20` · `Express` · `REST Architecture` · `WebSockets` · `Redis (Caches & Rate Limiting)` |
-| **Persistence & Security** | `PostgreSQL` · `Supabase (Row-Level Security & Triggers)` · `MongoDB` |
-| **Infrastructure & CI/CD** | `Docker` · `GitHub Actions CI/CD` · `Vercel Edge` · `Render` · `Linux` |
 
 </div>
 
