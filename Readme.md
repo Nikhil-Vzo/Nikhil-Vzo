@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-banner.jpg" width="100%" alt="Depth_walker // Nikhil Yadav" />
+<img src="assets/banner.jpg" width="100%" alt="Depth_walker // Nikhil Yadav" />
 
 </div>
 
