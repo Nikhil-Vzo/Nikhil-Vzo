@@ -42,6 +42,14 @@
 > **Upcoming / Active Core** · High-performance deterministic AI agent runtime built in pure Java 24.
 > *Project Loom Virtual Threads (`StructuredTaskScope`) · Zero External Dependencies · Hard Token Budget Governors · Deterministic Time-Travel Replay.*
 
+<br/>
+
+<p align="center">
+  <a href="https://github.com/Nikhil-Vzo/Blui">
+    <img src="assets/blui-banner.png" width="100%" alt="Blui: Fast. Deterministic. Replayable. Built for Java." />
+  </a>
+</p>
+
 <p align="center">
   <code>Stack: Java 24 · Virtual Threads · Concurrency · Sealed State Machines</code> &nbsp;·&nbsp;
   <code><a href="https://github.com/Nikhil-Vzo/Blui">View Repository ↗</a></code>
